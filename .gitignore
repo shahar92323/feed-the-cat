@@ -1,0 +1,4 @@
+.terraform
+.idea
+*.swp
+*.zip
