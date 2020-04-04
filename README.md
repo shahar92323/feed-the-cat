@@ -14,3 +14,8 @@ terraform apply -var aws_region="your-aws-region" -var email_sender="your-ses-se
 ```
 
 <b>IMPORTANT</b>: you'll have to verify your "email_sender" after applying Terraform.
+
+### What can be improved:
+
+* Python code.
+* Create Lambda functions on VPC (private subnets) and create VPCEndpoints to point S3 and DynamoDB using private tunnel.
