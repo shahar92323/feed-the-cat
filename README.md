@@ -18,4 +18,4 @@ terraform apply -var aws_region="your-aws-region" -var email_sender="your-ses-se
 ### What can be improved:
 
 * Python code.
-* Create Lambda functions on VPC (private subnets) and create VPCEndpoints to point S3 and DynamoDB using private tunnel.
+* Create Lambda functions on VPC (private subnets) alongside VPCEndpoints to point S3 and DynamoDB using private tunnel.
